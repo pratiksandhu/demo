@@ -1,0 +1,10 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 9, Failures: 1, Errors: 0, Skipped: 1, Time elapsed: 1.411 sec <<< FAILURE! - in TestSuite
+editUser(tests.Testing3)  Time elapsed: 0.015 sec  <<< FAILURE!
+java.lang.AssertionError: 
+The following asserts failed:
+	Verifying Element expected [true] but found [false]
+	at tests.Testing3.editUser(Testing3.java:26)
+

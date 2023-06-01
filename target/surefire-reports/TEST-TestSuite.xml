@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="TestSuite" time="1.411" tests="9" errors="0" skipped="1" failures="1">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="TestSuite" time="0.882" tests="9" errors="0" skipped="1" failures="1">
   <properties>
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
     <property name="java.vm.version" value="19.0.2+7-44"/>
@@ -28,7 +28,7 @@
     <property name="classworlds.conf" value="C:\testing\apache-maven-3.9.0\bin\m2.conf"/>
     <property name="sun.jnu.encoding" value="Cp1252"/>
     <property name="stdout.encoding" value="cp437"/>
-    <property name="java.library.path" value="C:\Program Files\Java\jdk-19.0.2\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\oraclexe\app\oracle\product\10.2.0\server\bin;C:\Program Files\Broadcom\Broadcom 802.11;C:\Program Files (x86)\Intel\iCLS Client\;C:\Program Files\Intel\iCLS Client\;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files\Hewlett-Packard\SimplePass\;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files\MySQL\MySQL Utilities 1.6\;C:\Program Files\nodejs\;C:\WINDOWS\System32\OpenSSH\;C:\testing\apache-ant-1.10.12\bin;C:\testing\apache-maven-3.9.0\bin;C:\Program Files\Java\jdk-19.0.2\bin;C:\Users\Pratik Sandhu\AppData\Local\Microsoft\WindowsApps;C:\Users\Pratik Sandhu\AppData\Roaming\npm;;."/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk-19.0.2\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\oraclexe\app\oracle\product\10.2.0\server\bin;C:\Program Files\Broadcom\Broadcom 802.11;C:\Program Files (x86)\Intel\iCLS Client\;C:\Program Files\Intel\iCLS Client\;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files\Hewlett-Packard\SimplePass\;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files\MySQL\MySQL Utilities 1.6\;C:\Program Files\nodejs\;C:\WINDOWS\System32\OpenSSH\;C:\testing\apache-ant-1.10.12\bin;C:\testing\apache-maven-3.9.0\bin;C:\Program Files\Java\jdk-19.0.2\bin;C:\Program Files\Git\cmd;C:\Users\Pratik Sandhu\AppData\Local\Microsoft\WindowsApps;C:\Users\Pratik Sandhu\AppData\Roaming\npm;;."/>
     <property name="maven.conf" value="C:\testing\apache-maven-3.9.0/conf"/>
     <property name="jdk.debug" value="release"/>
     <property name="java.class.version" value="63.0"/>
@@ -44,7 +44,7 @@
     <property name="java.class.path" value="C:\testing\apache-maven-3.9.0\boot\plexus-classworlds-2.6.0.jar"/>
     <property name="java.vm.specification.version" value="19"/>
     <property name="sun.arch.data.model" value="64"/>
-    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher clean compile test"/>
+    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher install"/>
     <property name="java.home" value="C:\Program Files\Java\jdk-19.0.2"/>
     <property name="user.language" value="en"/>
     <property name="java.specification.vendor" value="Oracle Corporation"/>
@@ -60,14 +60,14 @@
     <property name="sun.cpu.endian" value="little"/>
     <property name="sun.cpu.isalist" value="amd64"/>
   </properties>
-  <testcase name="abc" classname="tests.Testing1" time="0.015"/>
-  <testcase name="abc" classname="tests.Testing1" time="0"/>
+  <testcase name="abc" classname="tests.Testing1" time="0.007"/>
+  <testcase name="abc" classname="tests.Testing1" time="0.001"/>
   <testcase name="test1" classname="tests.Testing1" time="0.005"/>
-  <testcase name="test2" classname="tests.Testing1" time="0.01"/>
-  <testcase name="test3" classname="tests.Testing2" time="0.005"/>
-  <testcase name="test4" classname="tests.Testing2" time="0.01"/>
-  <testcase name="createUser" classname="tests.Testing3" time="0"/>
-  <testcase name="editUser" classname="tests.Testing3" time="0.015">
+  <testcase name="test2" classname="tests.Testing1" time="0.002"/>
+  <testcase name="test3" classname="tests.Testing2" time="0.001"/>
+  <testcase name="test4" classname="tests.Testing2" time="0"/>
+  <testcase name="createUser" classname="tests.Testing3" time="0.002"/>
+  <testcase name="editUser" classname="tests.Testing3" time="0.041">
     <failure message="The following asserts failed:&#10;	Verifying Element expected [true] but found [false]" type="java.lang.AssertionError">java.lang.AssertionError: 
 The following asserts failed:
 	Verifying Element expected [true] but found [false]
@@ -78,6 +78,6 @@ After assertion
 ]]></system-out>
   </testcase>
   <testcase name="deleteUser" classname="tests.Testing3" time="0">
-    <skipped message="Method Testing3.deleteUser()[pri:3, instance:tests.Testing3@1a3869f4] depends on not successfully finished methods"/>
+    <skipped message="Method Testing3.deleteUser()[pri:3, instance:tests.Testing3@371a67ec] depends on not successfully finished methods"/>
   </testcase>
 </testsuite>

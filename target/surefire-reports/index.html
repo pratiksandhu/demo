@@ -130,12 +130,12 @@
                     <div class="method-list-content passed suite-Surefire_suite">
                       <span>
                         <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Surefire_suite" title="tests.Testing1" class="method navigator-link" hash-for-method="abc(2, b)">abc(2, b)</a> <!-- method navigator-link -->
+                        <a href="#" panel-name="suite-Surefire_suite" title="tests.Testing1" class="method navigator-link" hash-for-method="abc(1, a)">abc(1, a)</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
                         <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Surefire_suite" title="tests.Testing1" class="method navigator-link" hash-for-method="abc(1, a)">abc(1, a)</a> <!-- method navigator-link -->
+                        <a href="#" panel-name="suite-Surefire_suite" title="tests.Testing1" class="method navigator-link" hash-for-method="abc(2, b)">abc(2, b)</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
@@ -206,13 +206,51 @@
                   <a name="deleteUser">
                   </a> <!-- deleteUser -->
                   <span class="method-name">deleteUser</span>
-                  <div class="stack-trace">java.lang.Throwable: Method Testing3.deleteUser()[pri:3, instance:tests.Testing3@1a3869f4] depends on not successfully finished methods
+                  <div class="stack-trace">java.lang.Throwable: Method Testing3.deleteUser()[pri:3, instance:tests.Testing3@371a67ec] depends on not successfully finished methods
 ... Removed 22 stack frames
 </div> <!-- stack-trace -->
                 </div> <!-- method-content -->
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
           </div> <!-- suite-Surefire_suite-class-skipped -->
+          <div class="suite-Surefire_suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">tests.Testing1</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="abc(1, a)">
+                  </a> <!-- abc(1, a) -->
+                  <span class="method-name">abc</span>
+                  <span class="parameters">(1, a)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="abc(2, b)">
+                  </a> <!-- abc(2, b) -->
+                  <span class="method-name">abc</span>
+                  <span class="parameters">(2, b)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="test1">
+                  </a> <!-- test1 -->
+                  <span class="method-name">test1</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="test2">
+                  </a> <!-- test2 -->
+                  <span class="method-name">test2</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Surefire_suite-class-passed -->
           <div class="suite-Surefire_suite-class-passed">
             <div class="main-panel-header rounded-window-top">
               <img src="passed.png"/>
@@ -246,44 +284,6 @@
                   <a name="test4">
                   </a> <!-- test4 -->
                   <span class="method-name">test4</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-            </div> <!-- main-panel-content rounded-window-bottom -->
-          </div> <!-- suite-Surefire_suite-class-passed -->
-          <div class="suite-Surefire_suite-class-passed">
-            <div class="main-panel-header rounded-window-top">
-              <img src="passed.png"/>
-              <span class="class-name">tests.Testing1</span>
-            </div> <!-- main-panel-header rounded-window-top -->
-            <div class="main-panel-content rounded-window-bottom">
-              <div class="method">
-                <div class="method-content">
-                  <a name="abc(2, b)">
-                  </a> <!-- abc(2, b) -->
-                  <span class="method-name">abc</span>
-                  <span class="parameters">(2, b)</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
-                  <a name="abc(1, a)">
-                  </a> <!-- abc(1, a) -->
-                  <span class="method-name">abc</span>
-                  <span class="parameters">(1, a)</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
-                  <a name="test1">
-                  </a> <!-- test1 -->
-                  <span class="method-name">test1</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
-                  <a name="test2">
-                  </a> <!-- test2 -->
-                  <span class="method-name">test2</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
@@ -343,27 +343,27 @@ data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
 data.addRows(9);
 data.setCell(0, 0, 0)
-data.setCell(0, 1, 'abc')
-data.setCell(0, 2, 'tests.Testing1')
-data.setCell(0, 3, 15);
+data.setCell(0, 1, 'editUser')
+data.setCell(0, 2, 'tests.Testing3')
+data.setCell(0, 3, 16);
 data.setCell(1, 0, 1)
-data.setCell(1, 1, 'test2')
+data.setCell(1, 1, 'abc')
 data.setCell(1, 2, 'tests.Testing1')
 data.setCell(1, 3, 5);
 data.setCell(2, 0, 2)
-data.setCell(2, 1, 'test1')
-data.setCell(2, 2, 'tests.Testing1')
-data.setCell(2, 3, 5);
+data.setCell(2, 1, 'createUser')
+data.setCell(2, 2, 'tests.Testing3')
+data.setCell(2, 3, 2);
 data.setCell(3, 0, 3)
-data.setCell(3, 1, 'createUser')
-data.setCell(3, 2, 'tests.Testing3')
-data.setCell(3, 3, 5);
+data.setCell(3, 1, 'test3')
+data.setCell(3, 2, 'tests.Testing2')
+data.setCell(3, 3, 1);
 data.setCell(4, 0, 4)
-data.setCell(4, 1, 'editUser')
-data.setCell(4, 2, 'tests.Testing3')
-data.setCell(4, 3, 5);
+data.setCell(4, 1, 'test1')
+data.setCell(4, 2, 'tests.Testing1')
+data.setCell(4, 3, 0);
 data.setCell(5, 0, 5)
-data.setCell(5, 1, 'test3')
+data.setCell(5, 1, 'test4')
 data.setCell(5, 2, 'tests.Testing2')
 data.setCell(5, 3, 0);
 data.setCell(6, 0, 6)
@@ -371,8 +371,8 @@ data.setCell(6, 1, 'abc')
 data.setCell(6, 2, 'tests.Testing1')
 data.setCell(6, 3, 0);
 data.setCell(7, 0, 7)
-data.setCell(7, 1, 'test4')
-data.setCell(7, 2, 'tests.Testing2')
+data.setCell(7, 1, 'test2')
+data.setCell(7, 2, 'tests.Testing1')
 data.setCell(7, 3, 0);
 data.setCell(8, 0, 8)
 data.setCell(8, 1, 'deleteUser')
@@ -382,7 +382,7 @@ window.suiteTableData['Surefire_suite']= { tableData: data, tableDiv: 'times-div
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 35 ms</span>
+              <span class="suite-total-time">Total running time: 24 ms</span>
               <div id="times-div-Surefire_suite">
               </div> <!-- times-div-Surefire_suite -->
             </div> <!-- times-div -->
@@ -415,98 +415,98 @@ return data;
               </div> <!-- configuration-suite before -->
               <div class="configuration-test before">
                 <span class="method-name">beforeTest</span>
-                <span class="method-start">40 ms</span>
+                <span class="method-start">19 ms</span>
               </div> <!-- configuration-test before -->
               <div class="configuration-class before">
                 <span class="method-name">beforeClass</span>
-                <span class="method-start">63 ms</span>
+                <span class="method-start">32 ms</span>
               </div> <!-- configuration-class before -->
               <div class="configuration-method before">
                 <span class="method-name">beforeMethod</span>
-                <span class="method-start">98 ms</span>
+                <span class="method-start">47 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">abc(1, a)</span>
-                <span class="method-start">98 ms</span>
+                <span class="method-start">48 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">afterMethod</span>
-                <span class="method-start">113 ms</span>
+                <span class="method-start">55 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-method before">
                 <span class="method-name">beforeMethod</span>
-                <span class="method-start">118 ms</span>
+                <span class="method-start">55 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">abc(2, b)</span>
-                <span class="method-start">118 ms</span>
+                <span class="method-start">56 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">afterMethod</span>
-                <span class="method-start">118 ms</span>
+                <span class="method-start">56 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-method before">
                 <span class="method-name">beforeMethod</span>
-                <span class="method-start">118 ms</span>
+                <span class="method-start">57 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">test1</span>
-                <span class="method-start">118 ms</span>
+                <span class="method-start">58 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">afterMethod</span>
-                <span class="method-start">123 ms</span>
+                <span class="method-start">58 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-method before">
                 <span class="method-name">beforeMethod</span>
-                <span class="method-start">123 ms</span>
+                <span class="method-start">59 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">test2</span>
-                <span class="method-start">128 ms</span>
+                <span class="method-start">60 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">afterMethod</span>
-                <span class="method-start">133 ms</span>
+                <span class="method-start">61 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-class after">
                 <span class="method-name">afterClass</span>
-                <span class="method-start">133 ms</span>
+                <span class="method-start">62 ms</span>
               </div> <!-- configuration-class after -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">tests.Testing2</div> <!-- chronological-class-name -->
               <div class="test-method">
                 <span class="method-name">test3</span>
-                <span class="method-start">138 ms</span>
+                <span class="method-start">69 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">test4</span>
-                <span class="method-start">143 ms</span>
+                <span class="method-start">71 ms</span>
               </div> <!-- test-method -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">tests.Testing3</div> <!-- chronological-class-name -->
               <div class="test-method">
                 <span class="method-name">createUser</span>
-                <span class="method-start">143 ms</span>
+                <span class="method-start">72 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <img src="failed.png">
                 </img>
                 <span class="method-name">editUser</span>
-                <span class="method-start">148 ms</span>
+                <span class="method-start">76 ms</span>
               </div> <!-- test-method -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">tests.Testing1</div> <!-- chronological-class-name -->
               <div class="configuration-test after">
                 <span class="method-name">afterTest</span>
-                <span class="method-start">168 ms</span>
+                <span class="method-start">117 ms</span>
               </div> <!-- configuration-test after -->
               <div class="configuration-suite after">
                 <span class="method-name">afterSuite</span>
-                <span class="method-start">437 ms</span>
+                <span class="method-start">294 ms</span>
               </div> <!-- configuration-suite after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
